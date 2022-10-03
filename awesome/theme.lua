@@ -11,17 +11,17 @@ local themes_path = gfs.get_themes_dir()
 
 local theme = {}
 
-theme.font          = "Hack"
+theme.font          = "Noto 16"
 
-theme.bg_normal     = "#282a36"
-theme.bg_focus      = "#44475a"
-theme.bg_urgent     = "#50fa7b"
+theme.bg_normal     = "#44475a"
+theme.bg_focus      = "#282a36"
+theme.bg_urgent     = "#282a36"
 theme.bg_minimize   = "#282a36"
 theme.bg_systray    = "#44475a"
 
 theme.fg_normal     = "#f8f8f2"
 theme.fg_focus      = "#ff79c6"
-theme.fg_urgent     = "#50fa7b"
+theme.fg_urgent     = "#ffb86c"
 theme.fg_minimize   = "#ff5555"
 
 theme.useless_gap   = dpi(4)
@@ -44,8 +44,9 @@ theme.border_marked = "#ffb86c"
 -- Example:
 theme.taglist_fg_occupied = "#8be9fd"
 theme.taglist_fg_empty = "#f8f8f2"
-theme.taglist_font = "Hack Bold 16"
+theme.taglist_font = "Hack Bold 24"
 
+theme.tasklist_fg_urgent = "#ffb86c"
 -- Generate taglist squares:
 --local taglist_square_size = dpi(4)
 --theme.taglist_squares_sel = theme_assets.taglist_squares_sel(

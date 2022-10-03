@@ -100,6 +100,10 @@ awful.layout.layouts = {
 
 --  Menubar configuration
  menubar.utils.terminal = terminal -- Set the terminal for applications that require it
+menubar.geometry = {
+  width = 1904,
+  x = 8,
+} 
 --  }}}
 
 -- Keyboard map indicator and switcher
@@ -200,8 +204,31 @@ awful.screen.connect_for_each_screen(function(s)
     }
 
     -- Create the wibox
-    s.mywibox = awful.wibar({screen = s, shape = gears.shape.rounded_rect, width = 1904, y = wibox_ypos })
-   -- s.mywibox = awful.wibar({screen = s, width = 1904 })
+  s.mywibox = awful.wibar({
+    --position = "bottom",
+    stretch = false,
+    border_width = 8,
+    --border_color = ""
+    ontop = false,
+    --cursor = ""
+    visible = true,
+    opacity = 1,
+    type = "desktop",
+    x = 8,
+    y = 8,
+    width = 1904,
+    --height = 32,
+    screen = s,
+    --widget = "",
+    --shape_boundin = "",
+    --shape_clip = "",
+    --shape_input = "",
+    --bg color = "",
+    --bgimage surface = "",
+    --fg color = "",
+    shape = gears.shape.rounded_bar, 
+    --input_passthrough = false,
+       })
 
     -- Add widgets to the wibox
     s.mywibox:setup {
@@ -597,5 +624,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 --Autostart application
 awful.spawn.with_shell('picom --experimental-backends')
-awful.spawn.with_shell('update')
 awful.spawn.with_shell("setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:scroll,compose:menu -layout 'us,pl,ru' -variant ',,phonetic_winkeys'")
