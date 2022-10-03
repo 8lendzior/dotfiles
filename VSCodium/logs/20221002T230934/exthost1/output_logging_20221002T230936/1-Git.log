@@ -1,0 +1,22 @@
+[2022-10-02T21:09:37.448Z] Log level: Info
+[2022-10-02T21:09:37.449Z] [info] Validating found git in: git
+[2022-10-02T21:09:37.486Z] [info] Using git 2.37.3 from git
+[2022-10-02T21:09:37.517Z] > git rev-parse --show-toplevel [4ms]
+[2022-10-02T21:09:37.531Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-10-02T21:09:37.548Z] [info] Open repository: /home/user/.config/nvim
+[2022-10-02T21:09:37.577Z] > git status -z -uall [22ms]
+[2022-10-02T21:09:37.615Z] > git symbolic-ref --short HEAD [17ms]
+[2022-10-02T21:09:37.631Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+[2022-10-02T21:09:37.643Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-10-02T21:09:37.648Z] > git remote --verbose [8ms]
+[2022-10-02T21:09:37.661Z] > git config --get commit.template [1ms]
+[2022-10-02T21:09:37.678Z] > git status -z -uall [8ms]
+[2022-10-02T21:09:37.689Z] > git symbolic-ref --short HEAD [7ms]
+[2022-10-02T21:09:37.698Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+[2022-10-02T21:09:37.711Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-10-02T21:09:37.714Z] > git remote --verbose [4ms]
+[2022-10-02T21:09:37.724Z] > git config --get commit.template [2ms]
+[2022-10-02T21:09:37.936Z] > git show --textconv :lua/user/plugins.lua [5ms]
+[2022-10-02T21:09:37.937Z] > git ls-files --stage -- /home/user/.config/nvim/lua/user/plugins.lua [2ms]
+[2022-10-02T21:09:37.941Z] > git cat-file -s 7482d6ac0e443fc9d5bb5b5a70e23e09843ffd0c [1ms]
+[2022-10-02T21:09:38.111Z] > git check-ignore -v -z --stdin [1ms]

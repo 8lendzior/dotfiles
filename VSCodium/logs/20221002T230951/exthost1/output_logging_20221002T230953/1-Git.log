@@ -1,0 +1,28 @@
+[2022-10-02T21:09:54.113Z] Log level: Info
+[2022-10-02T21:09:54.114Z] [info] Validating found git in: git
+[2022-10-02T21:09:54.131Z] [info] Using git 2.37.3 from git
+[2022-10-02T21:09:54.150Z] > git rev-parse --show-toplevel [5ms]
+[2022-10-02T21:09:54.176Z] > git rev-parse --git-dir --git-common-dir [6ms]
+[2022-10-02T21:09:54.194Z] [info] Open repository: /home/user/.config/nvim
+[2022-10-02T21:09:54.258Z] > git status -z -uall [39ms]
+[2022-10-02T21:09:54.281Z] > git symbolic-ref --short HEAD [19ms]
+[2022-10-02T21:09:54.292Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+[2022-10-02T21:09:54.308Z] > git remote --verbose [7ms]
+[2022-10-02T21:09:54.309Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+[2022-10-02T21:09:54.328Z] > git config --get commit.template [6ms]
+[2022-10-02T21:09:54.340Z] > git status -z -uall [2ms]
+[2022-10-02T21:09:54.358Z] > git symbolic-ref --short HEAD [10ms]
+[2022-10-02T21:09:54.365Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-02T21:09:54.377Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-10-02T21:09:54.378Z] > git remote --verbose [2ms]
+[2022-10-02T21:09:54.390Z] > git config --get commit.template [1ms]
+[2022-10-02T21:09:54.607Z] > git show --textconv :lua/user/plugins.lua [10ms]
+[2022-10-02T21:09:54.607Z] > git ls-files --stage -- /home/user/.config/nvim/lua/user/plugins.lua [5ms]
+[2022-10-02T21:09:54.612Z] > git cat-file -s 7482d6ac0e443fc9d5bb5b5a70e23e09843ffd0c [1ms]
+[2022-10-02T21:09:54.748Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-02T21:14:52.231Z] > git status -z -uall [2ms]
+[2022-10-02T21:14:52.240Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-02T21:14:52.246Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-02T21:14:52.255Z] > git remote --verbose [2ms]
+[2022-10-02T21:14:52.256Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-10-02T21:14:52.265Z] > git config --get commit.template [1ms]
