@@ -43,6 +43,8 @@ theme.border_marked = "#ffb86c"
 -- hotkeys_[bg|fg|border_width|border_color|shape|opacity|modifiers_fg|label_bg|label_fg|group_margin|font|description_font]
 -- Example:
 theme.taglist_fg_occupied = "#8be9fd"
+theme.taglist_fg_empty = "#f8f8f2"
+theme.taglist_font = "Hack Bold 16"
 
 -- Generate taglist squares:
 --local taglist_square_size = dpi(4)
