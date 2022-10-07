@@ -90,10 +90,10 @@ awful.layout.layouts = {
 --     { "quit", function() awesome.quit() end },
 --  }
 
-  mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
-                                      { "open terminal", terminal }
-                                    }
-                          })
+--  mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
+  --                                    { "open terminal", terminal }
+ --                                   }
+--                          })
 
 --  mylauncher = awful.widget.launcher({ image = beautiful.awesome_icon,
 --                                       menu = mymainmenu })
@@ -226,7 +226,7 @@ awful.screen.connect_for_each_screen(function(s)
     --bg color = "",
     --bgimage surface = "",
     --fg color = "",
-    shape = gears.shape.rounded_bar, 
+    shape = gears.shape.rounded_bar,
     --input_passthrough = false,
        })
 
@@ -235,7 +235,7 @@ awful.screen.connect_for_each_screen(function(s)
         layout = wibox.layout.align.horizontal,
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
-            mylauncher,
+            --mylauncher,
             s.mytaglist,
             s.mypromptbox,
         },
@@ -301,8 +301,8 @@ globalkeys = gears.table.join(
         end,
         {description = "focus previous by index", group = "client"}
     ),
-    awful.key({ modkey,           }, "w", function () mymainmenu:show() end,
-              {description = "show main menu", group = "awesome"}),
+   -- awful.key({ modkey,           }, "w", function () mymainmenu:show() end,
+    --          {description = "show main menu", group = "awesome"}),
 
     -- Layout manipulation
     awful.key({ modkey, "Shift"   }, "j", function () awful.client.swap.byidx(  1)    end,
