@@ -1,6 +1,0 @@
-[2022-10-01 22:53:55.253] [main] [info] update#setState idle
-[2022-10-01 22:53:56.930] [main] [info] Starting extension host with pid 12585 (fork() took 11 ms).
-[2022-10-01 22:54:25.256] [main] [info] update#setState checking for updates
-[2022-10-01 22:54:25.561] [main] [info] update#setState idle
-[2022-10-01 22:54:36.387] [main] [info] Extension host with pid 12585 exited with code: 0, signal: null.
-[2022-10-01 22:54:36.401] [main] [info] Waiting for extension host with pid 12585 to exit.

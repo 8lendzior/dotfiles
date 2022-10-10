@@ -1,8 +1,0 @@
-[2022-10-02 03:29:31.159] [sharedprocess] [info] Starting worker process with pid 3182 (type: fileWatcher, window: 1).
-[2022-10-02 03:54:16.575] [sharedprocess] [info] Getting Manifest... sumneko.lua
-[2022-10-02 03:54:16.647] [sharedprocess] [info] Installing extension: sumneko.lua
-[2022-10-02 03:54:19.096] [sharedprocess] [info] Downloaded extension: sumneko.lua /home/user/.config/VSCodium/CachedExtensionVSIXs/sumneko.lua-2.5.3-universal
-[2022-10-02 03:54:19.971] [sharedprocess] [info] Extracted extension to /home/user/.vscode-oss/extensions/.95a38df2-69ab-43c1-bc87-7cb70c625c28: sumneko.lua
-[2022-10-02 03:54:19.977] [sharedprocess] [info] Renamed to /home/user/.vscode-oss/extensions/sumneko.lua-2.5.3-universal
-[2022-10-02 03:54:19.982] [sharedprocess] [info] Extracting completed. sumneko.lua
-[2022-10-02 03:54:19.985] [sharedprocess] [info] Extension installed successfully: sumneko.lua

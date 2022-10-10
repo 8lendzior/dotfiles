@@ -1,7 +1,0 @@
-[2022-10-01 23:39:37.012] [main] [info] update#setState idle
-[2022-10-01 23:39:38.717] [main] [info] Starting extension host with pid 15299 (fork() took 7 ms).
-[2022-10-01 23:40:07.017] [main] [info] update#setState checking for updates
-[2022-10-01 23:40:07.416] [main] [info] update#setState idle
-[2022-10-01 23:43:53.073] [main] [info] Extension host with pid 15299 exited with code: 0, signal: null.
-[2022-10-01 23:43:54.717] [main] [info] Starting extension host with pid 15572 (fork() took 6 ms).
-[2022-10-01 23:46:39.747] [main] [info] Extension host with pid 15572 exited with code: 0, signal: null.
