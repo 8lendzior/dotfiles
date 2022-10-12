@@ -13,22 +13,20 @@ local theme = {}
 
 theme.font          = "Noto 16"
 
-theme.bg_normal     = "#44475a"
-theme.bg_focus      = "#282a36"
-theme.bg_urgent     = "#44475a"
-theme.bg_minimize   = "#282a36"
-theme.bg_systray    = "#44475a"
-
-theme.fg_normal     = "#f8f8f2"
-theme.fg_focus      = "#ff79c6"
-theme.fg_urgent     = "#ffb86c"
+theme.bg_normal     = '#1d1f21'
+theme.bg_minimize   = '#1d1f21'
+theme.bg_systray    = '#1d1f21'
+ 
+theme.fg_normal     = '#c5c8c6'
+theme.fg_focus      = '#b5bd68'
+theme.fg_urgent     = '#cc6666'
 theme.fg_minimize   = "#ff5555"
 
 theme.useless_gap   = dpi(4)
 theme.border_width  = dpi(2)
 
-theme.border_normal = "#44475a"
-theme.border_focus  = "#50fa7b"
+theme.border_normal = '#1d1f21'
+theme.border_focus  = '#b5bd68'
 theme.border_marked = "#ffb86c"
 
 -- There are other variable sets
@@ -42,8 +40,9 @@ theme.border_marked = "#ffb86c"
 -- prompt_[fg|bg|fg_cursor|bg_cursor|font]
 -- hotkeys_[bg|fg|border_width|border_color|shape|opacity|modifiers_fg|label_bg|label_fg|group_margin|font|description_font]
 -- Example:
-theme.taglist_fg_occupied = "#8be9fd"
-theme.taglist_fg_empty = "#f8f8f2"
+theme.taglist_fg_occupied = '#70c0b1'
+theme.taglist_fg_empty = '#c5c8c6'
+theme.taglist_bg_focus = '#1d1f21'
 theme.taglist_font = "Hack Bold 24"
 
 theme.tasklist_fg_urgent = "#ffb86c"
@@ -101,7 +100,7 @@ theme.titlebar_maximized_button_focus_inactive  = themes_path.."default/titlebar
 theme.titlebar_maximized_button_normal_active = themes_path.."default/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active  = themes_path.."default/titlebar/maximized_focus_active.png"
 
-theme.wallpaper = "/home/user/Desktop/Wallpapers/wallpaper-master/dracula-wallpaper.svg"
+theme.wallpaper = "/home/user/Downloads/pexels-hristo-fidanov-1252869.jpg"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path.."default/layouts/fairhw.png"

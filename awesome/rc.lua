@@ -102,6 +102,7 @@ awful.layout.layouts = {
  menubar.utils.terminal = terminal -- Set the terminal for applications that require it
 menubar.geometry = {
   width = 1904,
+  shape = gears.shape.rounded_bar,
   x = 8,
 } 
 --  }}}
@@ -173,7 +174,7 @@ awful.screen.connect_for_each_screen(function(s)
     set_wallpaper(s)
 
     -- Each screen has its own tag table.
-    local names = { "", "", "", "", "", "", "", "", "" }
+    local names = { "", "", "", "", "", "", "", "ﱮ", "" }
     local l = awful.layout.suit  -- Just to save some typing: use an alias.
     -- local layouts = { l.floating, l.tile, l.floating, l.fair, l.max, l.floating, l.tile.left, l.floating, l.floating }
     local layouts = l.tile
@@ -206,27 +207,27 @@ awful.screen.connect_for_each_screen(function(s)
     -- Create the wibox
   s.mywibox = awful.wibar({
     --position = "bottom",
-    stretch = false,
-    border_width = 8,
+    stretch = true,
+    border_width = 0,
     --border_color = ""
     ontop = false,
     --cursor = ""
     visible = true,
     opacity = 1,
-    type = "desktop",
-    x = 8,
-    y = 8,
-    width = 1904,
+    --type = "desktop",
+    --x = 8,
+    --y = 8,
+    width = "100%",
     --height = 32,
     screen = s,
     --widget = "",
     --shape_boundin = "",
     --shape_clip = "",
     --shape_input = "",
-    --bg color = "",
     --bgimage surface = "",
-    --fg color = "",
-    shape = gears.shape.rounded_bar,
+    --fg = "#ffffffff",
+    --bg = "#ffffff40",
+    --shape = gears.shape.rounded_bar,
     --input_passthrough = false,
        })
 
